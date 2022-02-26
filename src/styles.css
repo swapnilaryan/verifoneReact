@@ -1,0 +1,123 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.App {
+  position: relative;
+  font-family: sans-serif;
+}
+
+.signOut {
+  position: absolute;
+  right: 0;
+}
+
+.loginContainer {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  border: 1px solid lightgray;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+}
+
+.input-container {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 14px;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 5px 15px 5px 5px;
+}
+
+.forgotten-password {
+  align-self: flex-end;
+  margin-top: 7px;
+}
+
+#login-btn {
+  align-self: center;
+  padding: 7px 30px;
+  margin-top: 30px;
+  border: none;
+  color: #fff;
+  background-color: #2da44e;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+}
+
+#login-btn:hover {
+  background-color: #2c974b;
+}
+
+.signup-label {
+  position: relative;
+  bottom: -10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+
+.loginError {
+  color: lightcoral;
+}
+
+.productContainer {
+  border: 1px solid lightgray;
+  width: 300px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.productImg {
+  text-align: center;
+  padding: 20px;
+}
+
+.productTitle {
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+
+.productPrice {
+  margin-top: 10px;
+}
+
+.productDescContainer {
+  padding: 20px;
+}
+
+.header {
+  padding: 20px;
+}
